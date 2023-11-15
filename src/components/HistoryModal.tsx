@@ -3,13 +3,13 @@ import { useEffect } from "react";
 import YearInput from "./YearInput";
 
 const HistoryModal = ({closeHistory}:{closeHistory:any}) => {
-    useEffect(() => {
-        const dateInput = document.getElementById('yourDateInputId'); // Ganti 'yourDateInputId' dengan ID input Anda
+    // useEffect(() => {
+    //     const dateInput = document.getElementById('yourDateInputId'); // Ganti 'yourDateInputId' dengan ID input Anda
     
-        const today = new Date().toISOString().split('T')[0];
+    //     const today = new Date().toISOString().split('T')[0];
     
-        dateInput.value = today;
-      }, []);
+    //     dateInput.value = today;
+    //   }, []);
   return (
     <div className="w-screen h-screen fixed left-0 right-0 top-0 bottom-0 z-[99999] flex justify-center items-center backdrop-blur-md">
       <div className="bg-white w-3/5 shadow-2xl px-[38px] py-[23px] flex flex-col gap-3 rounded-md">
