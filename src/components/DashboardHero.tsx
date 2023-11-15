@@ -3,11 +3,11 @@
 import Image from "next/image";
 import Chart from "./Chart";
 
-const DashboardHero = () => {
+const DashboardHero = ({openHistory}:{openHistory:any}) => {
   return (
-    <div className="w-full min-h-screen pt-20 flex items-start px-[130px] gap-9">
-      <div className="flex flex-col justify-start items-center max-h-screen pt-10 gap-5">
-        <div className="flex gap-5">
+    <div id="Dashboard" className="w-full min-h-screen pt-20 flex items-start px-[130px] gap-9">
+      <div id="DataSection" className="flex flex-col justify-start items-center max-h-screen pt-10 gap-5">
+        <div id="CardSectionDashboard" className="flex gap-5">
           <div className="bg-[#FFB783] flex px-6 py-3 rounded-[20px] justify-between w-[250px] min-h-[130px]">
             <div className="flex flex-col justify-between">
               <p className="text-white font-roboto font-semibold capitalize">
@@ -70,18 +70,18 @@ const DashboardHero = () => {
             </div>
           </div>
         </div>
-        <div className="px-2 py-4 max-w-[900px] min-w-[650px] flex items-end gap-8">
+        <div id="Chart" className="px-2 py-4 max-w-[900px] min-w-[650px] flex items-end gap-8">
           <Chart />
-          <a
-            href=""
+          <button
             className="px-5 py-1 border-[1px] border-[#138F2E] rounded-[20px] bg-[#138F2E] font-medium text-white text-sm hover:bg-white hover:text-[#138F2E] transition-colors duration-75"
+            onClick={openHistory}
           >
             HISTORY
-          </a>
+          </button>
         </div>
       </div>
       <div className="flex flex-col justify-start items-center w-full max-h-screen gap-5">
-        <div className="max-h-[650px] h-full flex flex-col items-center pt-10 min-w-[450px]">
+        <div id="ChatDashboard" className="max-h-[650px] h-full flex flex-col items-center pt-10 min-w-[450px]">
           <div className="bg-[#138F2E] w-full flex justify-between items-center px-10 py-5 rounded-[20px_20px_0px_0px]">
             <p className="font-bold text-xl text-white">
               Smart Irrigation System
@@ -264,7 +264,7 @@ const DashboardHero = () => {
             </a>
             </div>
         </div>
-        <div className="flex bg-[#138F2E] pr-11 justify-between items-center gap-8 rounded-[30px] group cursor-pointer">
+        <div id="DashboardButton" className="flex bg-[#138F2E] pr-11 justify-between items-center gap-8 rounded-[30px] group cursor-pointer">
           <div className="bg-[#1A9D37] rounded-[60px_90px_90px_60px]">
             <svg
               width="136"
@@ -290,7 +290,7 @@ const DashboardHero = () => {
               />
             </svg>
           </div>
-          <p className="text-white font-bold text-2xl">Siram Sekarang</p>
+          <p className="text-white font-bold text-2xl text-center">Siram Sekarang</p>
         </div>
       </div>
     </div>

@@ -3,7 +3,7 @@ import Image from "next/image";
 const ContactHero = () => {
   return (
     <div id="Contact" className="w-full min-h-screen pt-20 flex items-start px-[130px] justify-around gap-20 relative">
-      <div className="flex flex-col items-center z-10 pt-44">
+      <div className="flex flex-col items-center z-10 pt-12">
         <p className="font-roboto text-[56px] font-bold text-[#138F2E]">
           CONTACT
         </p>
@@ -16,7 +16,7 @@ const ContactHero = () => {
           <br />
           Kami Siap Membantu Anda
         </p>
-        <div className="bg-[#1F672F] py-[6px] px-[7px] rounded-[30px] flex items-center min-w-[430px] gap-3">
+        <div id="ContactButton" className="bg-[#1F672F] py-[6px] px-[7px] rounded-[30px] flex items-center min-w-[430px] gap-3 box-border">
           <div className="bg-white p-[14px] rounded-full">
             <svg
               width="28"
@@ -34,10 +34,12 @@ const ContactHero = () => {
               />
             </svg>
           </div>
-          <p className="text-white text-[16px] text-center">muhammad.nabilathillah@mhs.itenas.ac.id</p>
+          <div className="w-full box-border">
+            <p className="text-white text-[16px] text-center">muhammad.nabilathillah@mhs.itenas.ac.id</p>
+          </div>
         </div>
       </div>
-      <div className="w-6/12 flex justify-center items-center z-10 self-center pb-36">
+      <div id="imgCustomerService" className="w-5/12 flex justify-center items-center z-10 self-center pb-48">
         <img src="/assets/Online support service.png" alt="" className="w-full"/>
       </div>
       <img src="/assets/wave.png" alt="" className="absolute bottom-0 left-0 w-full z-0"/>

@@ -3,14 +3,14 @@ import React from 'react'
 
 const Navbar = () => {
   return (
-    <nav className='w-full fixed top-0 py-4 flex justify-between bg-white shadow-md  px-[130px] z-50'>
+    <nav id='Navbar' className='w-full fixed top-0 py-4 flex justify-between bg-white shadow-md  px-[130px] z-50'>
         <div className='flex items-center gap-32'>
             <Image src="/assets/Logo.png" alt='logo' width={200} height={100}/>
-            <ul className='flex gap-8 '>
-                <a href="#Home" className='font-roboto font-medium text-sm text-[#138F2E] text-opacity-50 hover:text-opacity-100 transition-opacity duration-100'>Home</a>
-                <a href="#Features" className='font-roboto font-medium text-sm text-[#138F2E] text-opacity-50 hover:text-opacity-100 transition-opacity duration-100'>Features</a>
-                <a href="#AboutUs" className='font-roboto font-medium text-sm text-[#138F2E] text-opacity-50 hover:text-opacity-100 transition-opacity duration-100'>Abous Us</a>
-                <a href="#Contact" className='font-roboto font-medium text-sm text-[#138F2E] text-opacity-50 hover:text-opacity-100 transition-opacity duration-100'>Contact</a>
+            <ul className='flex gap-8'>
+                <a href="/#Home" className='font-roboto font-medium text-sm text-[#138F2E] text-opacity-50 hover:text-opacity-100 transition-opacity duration-100'>Home</a>
+                <a href="/#Features" className='font-roboto font-medium text-sm text-[#138F2E] text-opacity-50 hover:text-opacity-100 transition-opacity duration-100'>Features</a>
+                <a href="/#AboutUs" className='font-roboto font-medium text-sm text-[#138F2E] text-opacity-50 hover:text-opacity-100 transition-opacity duration-100'>Abous Us</a>
+                <a href="/#Contact" className='font-roboto font-medium text-sm text-[#138F2E] text-opacity-50 hover:text-opacity-100 transition-opacity duration-100'>Contact</a>
             </ul>
         </div>
         <div className='flex justify-end items-center'>

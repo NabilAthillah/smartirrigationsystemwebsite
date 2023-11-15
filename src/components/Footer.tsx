@@ -4,7 +4,7 @@ const Footer = () => {
       <div className="w-full flex justify-end p-6">
         <img src="/assets/Group 28.png" alt="" />
       </div>
-      <div className="flex justify-center gap-32 pt-10 w-full">
+      <div id="Footer" className="flex justify-center gap-32 pt-10 w-full">
         <div>
           <p className="font-roboto font-medium text-[20px] text-white">
             ABOUT

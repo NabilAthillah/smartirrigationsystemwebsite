@@ -85,7 +85,7 @@ export default function LineDiagram(){
             <Line
                 data={data}
                 options={options}
-                className="max-w-[600px] max-h-[346px]"
+                className="max-w-[600px] max-h-[346px] w-full"
             ></Line>
     )
 }

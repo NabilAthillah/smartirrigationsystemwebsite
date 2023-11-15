@@ -17,7 +17,7 @@ const AboutUsHero = () => {
           Anda.&quot;
         </p>
       </div>
-      <div className="w-full grid grid-cols-4">
+      <div id="CardImage" className="w-full grid grid-cols-4">
         <Card image="Pika" name="Dhefika Fazhira" nrp="15-2021-047" />
         <Card image="Nabil" name="M.Nabil Athillah" nrp="15-2021-076" />
         <Card image="Jaki" name="Zaky Arif Rahman" nrp="15-2021-146" />

@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@mobiscroll/react": "npm:@mobiscroll/react-trial@^5.27.3",
     "chart.js": "^4.4.0",
     "daisyui": "^3.9.4",
     "next": "14.0.1",
