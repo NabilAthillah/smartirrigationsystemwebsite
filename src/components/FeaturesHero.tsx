@@ -35,8 +35,8 @@ kapan saja melalui aplikasi berbasis smartphone.</p>
             <div id="FeaturesCard" className="border-t-[1px] border-t-white flex gap-10 min-w-[600px]">
                 <p id="Num" className="text-white text-[24px] pt-4">03/</p>
                 <div className="flex flex-col gap-3">
-                    <p id="Title" className="font-extrabold text-white text-[48px]">Penghematan air<br/>yang signifikan</p>
-                    <p id="Desc" className="font-extrabold text-white text-[20px]">Hanya memberikan air ketika diperlukan,<br/>mengurangi pemborosan.</p>
+                    <p id="Title" className="font-extrabold text-white text-[48px]">Kustomisasi</p>
+                    <p id="Desc" className="font-extrabold text-white text-[20px]">Sesuaikan sistem dengan kebutuhan tanaman Anda,<br/>termasuk jenis tanah dan jenis tanaman.</p>
                 </div>
             </div>
         </div>
