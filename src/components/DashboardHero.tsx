@@ -72,12 +72,12 @@ const DashboardHero = ({openHistory}:{openHistory:any}) => {
         </div>
         <div id="Chart" className="px-2 py-4 max-w-[900px] min-w-[650px] flex items-end gap-8">
           <Chart />
-          <button
+          {/* <button
             className="px-5 py-1 border-[1px] border-[#138F2E] rounded-[20px] bg-[#138F2E] font-medium text-white text-sm hover:bg-white hover:text-[#138F2E] transition-colors duration-75"
             onClick={openHistory}
           >
             HISTORY
-          </button>
+          </button> */}
         </div>
       </div>
       <div className="flex flex-col justify-start items-center w-full max-h-screen gap-5">
